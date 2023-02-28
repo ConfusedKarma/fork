@@ -30,7 +30,6 @@ class _BotCommands:
         self.YtdlZipCommand = getCommand(f'YTDLZIP_COMMAND', f'ytdlzip{CMD_SUFFIX}'), f'yz{CMD_SUFFIX}'
         self.YtdlLeechCommand = getCommand(f'YTDLLEECH_COMMAND',  f'ytdlleech{CMD_SUFFIX}'), f'yl{CMD_SUFFIX}'
         self.YtdlZipLeechCommand = getCommand(f'YTDLZIPLEECH_COMMAND', f'ytdlzipleech{CMD_SUFFIX}'), f'yzl{CMD_SUFFIX}'
-        self.MediaInfoCommand = getCommand(f'MEDIAINFO_COMMAND', f'mediainfo{CMD_SUFFIX}'), f'mi{CMD_SUFFIX}'
         self.UserSetCommand  = getCommand(f'USERSET_COMMAND', f'usetting{CMD_SUFFIX}'), f'us{CMD_SUFFIX}'
         self.BotSetCommand = getCommand(f'BOT_SETTING', f'bsetting{CMD_SUFFIX}'), f'bs{CMD_SUFFIX}'
         self.CancelMirror = getCommand(f'CANCEL_COMMAND', f'cancel{CMD_SUFFIX}')
